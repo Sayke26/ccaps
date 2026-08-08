@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/BaguioTrack/pages/index.html" },
+    { "source": "/index.html", "destination": "/BaguioTrack/pages/index.html" },
+    { "source": "/home.html", "destination": "/BaguioTrack/pages/home.html" },
+    { "source": "/tourist.html", "destination": "/BaguioTrack/pages/tourist.html" },
+    { "source": "/jeepterminal.html", "destination": "/BaguioTrack/pages/jeepterminal.html" },
+    { "source": "/adminlogin.html", "destination": "/BaguioTrack/pages/adminlogin.html" },
+    { "source": "/assets/:path*", "destination": "/BaguioTrack/assets/:path*" },
+    { "source": "/:path*", "destination": "/BaguioTrack/pages/:path*" }
+  ]
+}
